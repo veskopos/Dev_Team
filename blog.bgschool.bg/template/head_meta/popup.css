@@ -1,0 +1,99 @@
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+.popupContainer{
+	position:absolute;
+	width:330px;
+	height: auto;
+	left:45%;
+	top:80px;
+	background: #FFF;
+}
+
+
+
+.btn1 {padding:10px 20px; background: #F4F4F2;}
+.btn_red1 {background: #ED6347; color: #FFF;width:49%;float:right;margin:1px;}
+
+.btn1:hover {background: #2980B9;}
+.btn_red1:hover {background: #C12B05;color:white;}
+
+a.btn1 {color:#666; text-align: center; text-decoration: none;}
+a.btn_red1 {color: #FFF;}
+
+
+.one_half.last {width:100%; }
+
+.header_title{
+font-size:14px;
+}
+
+/* Popup Styles*/
+.popupHeader {font-size:16px; text-transform: uppercase;}
+.popupHeader {background:#F4F4F2; position:relative; padding:10px 20px; border-bottom:1px solid #DDD; font-weight:bold;}
+.popupHeader .modal_close {
+position: absolute; 
+right: 0;
+ top:0; 
+margin:7px;
+background:url(../images/close.jpg);
+background-color: #ED6347;
+background-size:20px 20px;
+ cursor: pointer; 
+ margin:4px;
+ border-radius:3px;
+font-size:16px;
+width:20px;
+height:20px;
+}
+
+.panel2{
+display:none;
+}
+
+.popupHeader .modal_close:hover {
+background-color: #C12B05;
+}
+
+.popupBody {padding:20px;}
+
+
+/* Social Login Form */
+.social_login {}
+.social_login .social_box {display:block; clear:both; padding:10px; margin-bottom: 10px; background: #F4F4F2; overflow: hidden;}
+.social_login .icon {display:block; width:10px; padding:5px 10px; margin-right: 10px; float:left; color:#FFF; font-size:16px; text-align: center;} 
+.social_login .fb .icon {background:#3B5998;}
+.social_login .google .icon {background:#DD4B39;}
+.social_login .icon_title {display:block; padding:5px 0; float:left; font-weight: bold; font-size: 16px; color:#777;}
+.social_login .social_box:hover {background: #E4E4E2;}
+
+.centeredText {text-align: center; margin: 20px 0; clear: both; overflow: hidden; text-transform: uppercase;}
+
+.action_btns {clear:both; overflow: hidden;}
+.action_btns a {display: block;}
+
+/* User Login Form */
+.panel label {display: block; margin-bottom:5px;}
+.panel input[type="text"], .panel input[type="email"], .panel input[type="password"] {display: block; padding: 10px; border:1px solid #DDD; color:#666;width:100%;}
+.panel input[type="checkbox"] {float:left; margin-right:5px;}
+.panel input[type="checkbox"]+label {float:left;}
+
+.panel .checkbox {margin-bottom: 10px; clear: both; overflow: hidden;}
+.forgot_password {display:block; margin: 20px 0 10px; clear: both; overflow: hidden; text-decoration: none; color:#ED6347;text-align:right;}
+
+/* User Register Form */
+.user_register {display: none;}
+.user_register label {display: block; margin-bottom:5px;}
+.user_register input[type="text"], .user_register input[type="email"], .user_register input[type="password"] {display: block; width:90%; padding: 10px; border:1px solid #DDD; color:#666;}
+.user_register input[type="checkbox"] {float:left; margin-right:5px;}
+.user_register input[type="checkbox"]+label {float:left;}
+
+.user_register .checkbox {margin-bottom: 10px; clear: both; overflow: hidden;} 
